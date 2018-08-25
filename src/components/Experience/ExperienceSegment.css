@@ -1,0 +1,26 @@
+.img {
+    height: 45px;
+    width: 45px;
+}
+
+.segment-wrapper-projects > .segment-container,
+.segment-wrapper-projects > .segment-arch::before,
+.segment-container-pro {
+  background-color: #1a1a1a;
+}
+
+.fade-in {
+    display: inline-block;
+    animation: fadeIn 1s ease-in-out;
+    color: yellow;
+}
+
+.fade-in.hide {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {margin-top: 200px; opacity: 0; }
+    to {margin-top: 0px; opacity: 1; }
+}
+

@@ -1,0 +1,111 @@
+.segment-wrapper-education > .segment-container-edu,
+.segment-wrapper-education > .segment-arch::before {
+  background-color: #262626;
+  text-align: center;
+  color: #ada9a9;
+}
+
+span {
+    color: #b62526;
+}
+
+.left-align {
+    display: inline-block;
+    text-align: left;
+    grid-column-start: 4;
+}
+
+.center-align-edu {
+    grid-column: 1 / span 6;
+    color: #b62526;
+    font-size: 1.2em;
+}
+
+.grid-container-edu {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto 85%;
+    grid-column-gap: 20px;
+    text-align: left;
+    padding: 0 120px 0 150px;
+    min-height: 100px;
+    overflow: hidden;
+  }
+
+  .edu-item1 {
+      grid-area: 1 / 1 / 1 / 1;
+      color: #b62526;
+  }
+  
+  .edu-item2 {
+      grid-area: 1 / 2 / 1 / 2;
+      color: #ada9a9;
+  }
+  
+  .edu-item3 {
+      grid-area: 2 / 1 / 2 / 1;
+      color: #b62526;
+  }
+  
+  .edu-item4 {
+      grid-area: 2 / 2 / 2 / 2;
+      color: #ada9a9;
+  }
+
+  .segment-container-edu {
+    text-align: center;
+    padding: 20px;
+    min-height: 100px;
+    overflow: hidden;
+  }
+
+  @media (max-width: 479px) {
+    .segment-container-edu {
+        text-align: center;
+        padding: 2rem 1.5rem 2.5rem;
+        min-height: 100px;
+        overflow: hidden;
+      }
+    .edu-item1 {
+        grid-area: 1 / 1 / 1 / 1;
+        color: #b62526;
+    }
+    
+    .edu-item2 {
+        grid-area: 2 / 1 / 2 / 1;
+        color: #ada9a9;
+    }
+    
+    .edu-item3 {
+        grid-area: 3 / 1 / 3 / 1;
+        color: #b62526;
+    }
+    
+    .edu-item4 {
+        grid-area: 4 / 1 / 4 / 1;
+        color: #ada9a9;
+    }
+    .grid-container-edu {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        text-align: left;
+        padding: 0 20px 0 50px;
+        min-height: 100px;
+        overflow: hidden;
+      }
+  }
+
+@media (min-width: 480px) and (max-width: 960px){
+    .segment-container-edu {
+        text-align: center;
+        padding: 2rem 1.5rem 2.5rem;
+        min-height: 100px;
+        overflow: hidden;
+      }
+      .grid-container-edu {
+        text-align: left;
+        padding: 0 20px 0 50px;
+        min-height: 100px;
+        overflow: hidden;
+      }
+  }

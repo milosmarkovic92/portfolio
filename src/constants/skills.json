@@ -1,0 +1,44 @@
+[
+    {
+        "image": "/icons/react.png",
+        "alt": "react",
+        "caption": "React JS",
+        "color": "#00CCFF",
+        "progress": 85
+    },
+    {
+        "image": "/icons/redux.png",
+        "alt": "redux",
+        "caption": "Redux",
+        "color": "#7c3cbb",
+        "progress": 80
+    },
+    {
+        "image": "/icons/jquery.png",
+        "alt": "jquery",
+        "caption": "jQuery",
+        "color": "#21609b",
+        "progress": 75
+    },
+    {
+        "image": "/icons/javascript.png",
+        "alt": "javascript",
+        "caption": "JavaScript",
+        "color": "#FFFF00",
+        "progress": 90
+    },
+    {
+        "image": "/icons/html5.png",
+        "alt": "html5",
+        "caption": "HTML5",
+        "color": "#FF6633",
+        "progress": 90
+    },
+    {
+        "image": "/icons/css3.png",
+        "alt": "css3",
+        "caption": "CSS3",
+        "color": "#0073b9",
+        "progress": 85
+    }
+]
