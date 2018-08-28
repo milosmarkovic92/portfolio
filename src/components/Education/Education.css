@@ -23,7 +23,7 @@
     grid-template-columns: auto 85%;
     grid-column-gap: 20px;
     text-align: left;
-    padding: 0 120px 0 150px;
+    padding: 0 120px 0 132px;
     min-height: 100px;
     overflow: hidden;
   }

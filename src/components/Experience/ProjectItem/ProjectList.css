@@ -3,7 +3,7 @@
   grid-template-rows: 40px auto 60px;
   grid-template-columns: auto 85%;
   grid-column-gap: 20px;
-  padding: 0 80px 0 105px;
+  padding: 0 80px 0 85px;
   min-height: 100px;
   overflow: hidden;
   text-align: justify;
@@ -48,7 +48,7 @@ img {
 }
 
 hr {
-    margin-left: 105px;
+    margin-left: 85px;
     margin-right: 80px;
     border: 0;
     border-top: 2px solid #51515a;

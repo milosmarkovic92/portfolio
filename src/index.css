@@ -33,7 +33,7 @@ body {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   text-align: center;
-  padding: 20px 80px 40px 105px;
+  padding: 20px 80px 40px 95px;
   min-height: 100px;
   overflow: hidden;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .segment-content {
-  max-width: 1950px;
+  max-width: 1300px;
   margin: auto;
 }
 
