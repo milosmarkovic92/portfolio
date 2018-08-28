@@ -13,7 +13,7 @@ img {
 .progress-container {
     position: relative;
     height: 2px;
-    width: 150px;
+    width: 100px;
     align-content: center;
     margin: 0 auto;
 }

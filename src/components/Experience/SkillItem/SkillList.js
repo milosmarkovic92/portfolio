@@ -5,6 +5,7 @@ import Skill, { SkillPropTypes } from './Skill';
 const SkillList = (props) => props.skills.map(skillProps =>
     <Skill
         key={skillProps.caption}
+        captionTwo={skillProps.captionTwo}
         image={skillProps.image}
         caption={skillProps.caption}
         color={skillProps.color}

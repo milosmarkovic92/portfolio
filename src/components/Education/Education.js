@@ -1,5 +1,6 @@
 import React from 'react';
 import './Education.css';
+import Color from 'color';
 
 const Education = () => {
     return (
@@ -9,13 +10,16 @@ const Education = () => {
                 <h1 className="center-align-edu">EDUCATION</h1>
                 <div className="left-align grid-container-edu">
                     <p className="edu-item1">2012 - 2018 </p>
-                    <p className="edu-item2">
+                    <p className="edu-item2"
+                        style={{ color: Color('#ada9a9').darken(0.2) }}>
                         The School of Electrical and Computer Engineering of Applied Studies, Belgrade.
-                        Study program: Computer Engineering
+                        Study program: <span style={{ color: Color('white').darken(0.2) }}>Computer Engineering</span>
                     </p>
                     <p className="edu-item3">2007 - 2011 </p>
-                    <p className="edu-item4"> Technical School Mladenovac.
-                        Study program: Computer Technican
+                    <p className="edu-item4"
+                        style={{ color: Color('#ada9a9').darken(0.2) }}>
+                        Technical School Mladenovac.
+                        Study program: <span style={{ color: Color('white').darken(0.2) }}>Computer Technican</span>
                     </p>
                 </div>
             </div>

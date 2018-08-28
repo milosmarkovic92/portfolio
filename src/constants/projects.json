@@ -2,17 +2,17 @@
     {
         "name": "Memory game with cards",
         "description": "The main board contains simply a bunch of cards. Each of them contains some image, but all of them are hidden actually. Each of card has one matching card equivalent on the board, with the same image. You need to find all the matching cards. When you discover 2 cards and they do not match, they are hiding again and the best thing to do is just try to remember what cards you discovered and where. It will help you with finding matching pairs.",
-        "skills": ["React JS", "Redux", "JavaScript", "CSS3", "HTML5"]
+        "skills": ["ReactJS", "Redux", "JavaScript", "CSS3", "HTML5"]
     },
     {
         "name": "Game of Thrones Countdown",
         "description": "Since I am a big fan of Game of Thrones and I can't wait for new season I made myself a simple application so I can check how many days, hours, minutes and seconds are left until new season. Winter is Coming!",
-        "skills": ["React JS", "JavaScript", "CSS3", "HTML5"]
+        "skills": ["ReactJS", "JavaScript", "CSS3", "HTML5"]
     },
     {
         "name": "My portfolio",
         "description": "My idea was to build whole portfolio from scratch not using any UI libraries/frameworks, except React, because I love how React simplifies the whole web development process. I had fun building my portfolio and also I learned so many new things. ",
-        "skills": ["React JS", "JavaScript", "CSS3", "HTML5"]
+        "skills": ["ReactJS", "JavaScript", "CSS3", "HTML5"]
     },
     {
         "name": "Landing page",
@@ -22,6 +22,6 @@
     {
         "name": "Food ordering web app",
         "description": "A web application for ordering food online. React made web more simple and I made life simpler with this application, using Lyfecycle methods.",
-        "skills": ["React JS", "JavaScript", "CSS3"]
+        "skills": ["ReactJS", "JavaScript", "CSS3"]
     }
 ]

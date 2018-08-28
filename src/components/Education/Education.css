@@ -5,10 +5,6 @@
   color: #ada9a9;
 }
 
-span {
-    color: #b62526;
-}
-
 .left-align {
     display: inline-block;
     text-align: left;
@@ -54,7 +50,7 @@ span {
 
   .segment-container-edu {
     text-align: center;
-    padding: 20px;
+    padding: 0 0 40px;
     min-height: 100px;
     overflow: hidden;
   }

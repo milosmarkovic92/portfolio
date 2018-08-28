@@ -23,7 +23,7 @@
   display: grid;
   grid-template-columns: auto;
   text-align: center;
-  padding: 20px;
+  padding: 0 0 10px;
   min-height: 100px;
   overflow: hidden;
 }

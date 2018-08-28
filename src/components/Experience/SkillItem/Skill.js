@@ -4,11 +4,16 @@ import Color from 'color';
 import './SkillList.css';
 
 const Skill = (props) => (
-    <div key={props.caption} onClick={ () => props.onSelectSkill(props.caption, props.image) } >
+    <div key={props.caption} onClick={() =>
+        props.onSelectSkill(props.caption + props.captionTwo, props.image)} >
         <img src={props.image} alt='' />
-        <h4 style={{ color: props.color }}>{props.caption}</h4>
+        <h4 style={{ color: props.color }}>{props.caption}
+            <span style={{ color: Color(props.color).darken(0.4) }}>
+                {props.captionTwo}
+            </span>
+        </h4>
         <div className='progress-container'
-            style={{ backgroundColor: Color(props.color).darken(0.5) }}>
+            style={{ backgroundColor: Color(props.color).darken(0.4) }}>
             <div className='progress-bar'
                 style={{ backgroundColor: props.color, width: props.progress + '%' }}>
             </div>
@@ -20,6 +25,7 @@ export const SkillPropTypes = {
     onSelectSkill: PropTypes.func,
     image: PropTypes.string,
     caption: PropTypes.string,
+    captionTwo: PropTypes.string,
     progress: PropTypes.number
 }
 
