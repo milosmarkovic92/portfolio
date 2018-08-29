@@ -39,6 +39,7 @@ img {
 @media (min-width: 480px) and (max-width: 960px){
     .segment-container {
       grid-template-columns: auto auto auto;
+      grid-row-gap: 20px;
       overflow: hidden;
       padding: 2rem 1.5rem 2.5rem;
       margin: auto;
