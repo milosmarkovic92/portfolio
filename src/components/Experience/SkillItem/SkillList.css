@@ -28,10 +28,11 @@ img {
 @media (max-width: 479px) {
     .segment-container {
       grid-template-columns: auto auto;
+      grid-row-gap: 20px;
       overflow: hidden;
       padding: 2rem 1.5rem 2.5rem;
       margin: auto;
-      height: 400px;
+      min-height: 100px;
     }
   }
 
@@ -41,7 +42,7 @@ img {
       overflow: hidden;
       padding: 2rem 1.5rem 2.5rem;
       margin: auto;
-      height: 400px;
+      min-height: 100px;
     }
   }
 
