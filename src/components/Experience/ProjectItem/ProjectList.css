@@ -45,6 +45,7 @@
 img {
     height: 45px;
     width: 45px;
+    z-index: -1;
 }
 
 hr {

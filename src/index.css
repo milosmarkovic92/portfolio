@@ -47,6 +47,18 @@ body {
   margin: auto;
 }
 
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  font-size: 12px;
+  background: #ccc;
+  cursor: pointer;
+  top: -1;
+  right: -1;
+}
+
 @media (max-width: 479px) {
   .segment-container {
     display: grid;

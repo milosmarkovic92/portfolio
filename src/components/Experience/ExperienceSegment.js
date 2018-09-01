@@ -29,11 +29,9 @@ class ExperienceSegment extends Component {
                 <div className="segment-arch" />
                 <div className="segment-container-pro">
                     <div className='project-slide'>
-                        <div>
-                            <img src={selectedImage}
-                                alt=''
-                                onClick={() => this.skillChangeHandler('')}
-                            />
+                        <div onClick={() => this.skillChangeHandler('')}>
+                              <img src={selectedImage} alt='' />
+                              <span className="circle">X</span>
                         </div>
                         <ProjectList
                             skill={selectedSkill}
