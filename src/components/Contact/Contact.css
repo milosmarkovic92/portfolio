@@ -17,15 +17,17 @@
   grid-column: 1 / span 6;
   color: #b62526;
   font-size: 1.2em;
+  padding: 0;
 }
 
 .contact-icons {
     display:inline-grid;
     grid-template-columns: auto auto auto auto;
+    grid-template-rows: 60px;
     justify-content: space-evenly;
     width: 500px;
     cursor: pointer;
-    padding: 5px 0 0 0;
+    padding: 0;
     min-height: 100px;
     overflow: hidden;
     align-content: center;
@@ -36,9 +38,18 @@ a > img {
     float: left;
 }
 
-a{
+a {
   text-decoration: none;
   color: #ada9a9;
+}
+
+.contact {
+  transition: all 200ms ease-in;
+}
+
+.contact:hover {
+  transition: all 200ms ease-in;
+  transform: scale(1.3);
 }
 
 .contact-slide {
@@ -54,9 +65,10 @@ a{
 @media (max-width: 479px) {
   .contact-icons {
       display: inline-grid;
-      grid-template-columns: auto auto;
-      grid-template-rows: auto auto;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 60px;
       grid-gap:30px;
+      padding: 0 0 10px 0;
       width: 100%;
       text-align: center;
       min-height: 100px;
@@ -70,14 +82,18 @@ a{
 }
 
 @media (min-width: 480px) and (max-width: 960px){
-  .segment-container-con {
-      display: grid;
-      grid-template-columns: auto;
-      text-align: center;
-      justify-content: center;
-      min-height: 100px;
-      overflow: hidden;
-    }
+  .contact-icons {
+    display:inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 60px;
+    justify-content: space-evenly;
+    width: 500px;
+    cursor: pointer;
+    padding: 0;
+    min-height: 100px;
+    overflow: hidden;
+    align-content: center;
+}
     .new-line {
       grid-column: 1 / span 6;
       margin:2px;

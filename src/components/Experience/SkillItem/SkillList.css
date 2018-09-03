@@ -12,7 +12,6 @@ img {
 
 .skill {
   transition: all 200ms ease-in;
-  transform: scale(1);
 }
 
 .skill:hover {
