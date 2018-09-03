@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className="segment-wrapper-contact">
             <div className="segment-arch" />
-            <div className="segment-container-con">
+            <div className="segment-container-con contact-slide">
                 <h1 className="center-align">CONTACT</h1>
                 <a href="https://www.linkedin.com/in/milosmarkovic92/"
                     target="_blank"

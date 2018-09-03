@@ -4,7 +4,7 @@ import './AboutMe.css';
 
 const AboutMe = () => {
     return (
-        <div className="segment-wrapper segment-wrapper-about-me">
+        <div className="segment-wrapper segment-wrapper-about-me about-slide">
             <img className="profile-picture" src={milos} alt="Milos Markovic" />
             <div className="name">Miloš<strong>Marković</strong></div>
             <div className="profession"><strong>Frontend</strong>Developer</div>

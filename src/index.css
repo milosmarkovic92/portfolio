@@ -36,7 +36,7 @@ body {
   padding: 20px 80px 40px 95px;
   min-height: 100px;
   overflow: hidden;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 * {

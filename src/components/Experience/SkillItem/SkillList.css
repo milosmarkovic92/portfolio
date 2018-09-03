@@ -10,6 +10,16 @@ img {
     cursor: pointer;
 }
 
+.skill {
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+.skill:hover {
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
 .progress-container {
     position: relative;
     height: 2px;
@@ -23,6 +33,15 @@ img {
     height: 2px;
     align-content: center;
     opacity: 1;
+}
+
+.skills-slide {
+  animation: skills-slide-in 0.25s ease-in forwards;
+}
+  
+@keyframes skills-slide-in {
+  from { opacity: 0; transform: translateY(-100px); }
+  to { opacity: 1; transform: none; }
 }
 
 @media (max-width: 479px) {

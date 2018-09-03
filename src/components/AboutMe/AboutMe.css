@@ -30,6 +30,15 @@
     font-style: italic;
 }
 
+.about-slide {
+    animation: about-slide-in 0.25s ease-in forwards;
+}
+    
+@keyframes about-slide-in {
+    from { opacity: 0; transform: translateY(-100px); }
+    to { opacity: 1; transform: none; }
+}
+
 @media (max-width: 479px) {
     .segment-wrapper-about-me {
         background-color: #b3b3b3;

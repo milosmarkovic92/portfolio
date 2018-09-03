@@ -6,7 +6,7 @@ const Education = () => {
     return (
         <div className="segment-wrapper segment-wrapper-education">
             <div className="segment-arch" />
-            <div className="segment-container-edu">
+            <div className="segment-container-edu education-slide">
                 <h1 className="center-align-edu">EDUCATION</h1>
                 <div className="left-align grid-container-edu">
                     <p className="edu-item1">2012 - 2018 </p>
