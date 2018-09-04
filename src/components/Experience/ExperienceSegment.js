@@ -3,6 +3,7 @@ import ProjectList from '../Experience/ProjectItem/ProjectList';
 import SkillList from '../Experience/SkillItem/SkillList';
 import PROJECTS from '../../constants/projects.json';
 import SKILLS from '../../constants/skills.json';
+import close from '../../assets/close.png'
 import './ExperienceSegment.css';
 
 class ExperienceSegment extends Component {
@@ -31,11 +32,10 @@ class ExperienceSegment extends Component {
                     <div className='project-slide'>
                         <div>
                             <span className="span-container">
-                                <span
+                                <img src={close}
+                                    alt=''
                                     className="circle"
-                                    onClick={() => this.skillChangeHandler('')}>
-                                    X
-                                </span>
+                                    onClick={() => this.skillChangeHandler('')} />
                                 <img src={selectedImage}
                                     className="img"
                                     alt=''

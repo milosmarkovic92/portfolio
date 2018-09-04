@@ -18,12 +18,15 @@
     border-radius: 50%;
     height: 17px;
     width: 17px;
-    align-content: center;
-    font-size: 14px;
-    background: #ccc;
     cursor: pointer;
     right: -8px;
     top: -35px;
+    transition: all 200ms ease-in;
+}
+
+.circle:hover {
+    transition: all 200ms ease-in;
+    transform: scale(1.3);
 }
 
 .project-item1 {
