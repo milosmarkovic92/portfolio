@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Color from 'color';
+import Icons from 'react-svg-icons';
 import './SkillList.css';
 
 const Skill = (props) => (
@@ -8,7 +9,7 @@ const Skill = (props) => (
         <div className="skill"
             key={props.caption} onClick={() =>
                 props.onSelectSkill(props.caption + props.captionTwo, props.image)} >
-            <img src={props.image} alt='' />
+            <Icons name={props.image} />
             <h4 style={{ color: props.color }}>{props.caption}
                 <span style={{ color: Color(props.color).darken(0.4) }}>
                     {props.captionTwo}
