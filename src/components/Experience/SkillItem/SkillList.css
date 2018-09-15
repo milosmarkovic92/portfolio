@@ -4,7 +4,8 @@
   background-color: #1a1a1a;
 }
 
-img {
+.icon-container {
+    display: inline-block;
     height: 45px;
     width: 45px;
     cursor: pointer;

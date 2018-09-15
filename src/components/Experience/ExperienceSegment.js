@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ProjectList from '../Experience/ProjectItem/ProjectList';
 import SkillList from '../Experience/SkillItem/SkillList';
+import Skill from '../Experience/SkillItem/Skill';
 import PROJECTS from '../../constants/projects.json';
 import SKILLS from '../../constants/skills.json';
 import close from '../../assets/close.png'
@@ -36,10 +37,11 @@ class ExperienceSegment extends Component {
                                     alt=''
                                     className="circle"
                                     onClick={() => this.skillChangeHandler('')} />
-                                <img src={selectedImage}
+                                <Skill image={selectedImage}/>
+                                {/*<img src={selectedImage}
                                     className="img"
                                     alt=''
-                                />
+                                    />*/}
                             </span>
                         </div>
                         <ProjectList

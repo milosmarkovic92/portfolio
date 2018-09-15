@@ -1,41 +1,41 @@
 [
     {
-        "image": "/icons/react.svg",
+        "name": "ReactJS",
         "caption": "React",
         "captionTwo": "JS",
         "color": "#ada9a9",
         "progress": 85
     },
     {
-        "image": "/icons/redux.svg",
+        "name": "Redux",
         "caption": "Redux",
         "captionTwo": "",
         "color": "#ada9a9",
         "progress": 80
     },
     {
-        "image": "/icons/jquery.svg",
+        "name": "jQuery",
         "caption": "jQuery",
         "captionTwo": "",
         "color": "#ada9a9",
         "progress": 75
     },
     {
-        "image": "/icons/javascript.svg",
+        "name": "JavaScript",
         "caption": "Java",
         "captionTwo": "Script",
         "color": "#ada9a9",
         "progress": 90
     },
     {
-        "image": "/icons/html5.svg",
+        "name": "Html5",
         "caption": "HTML",
         "captionTwo": "5",
         "color": "#ada9a9",
         "progress": 90
     },
     {
-        "image": "/icons/css3.svg",
+        "name": "Css3",
         "caption": "CSS",
         "captionTwo": "3",
         "color": "#ada9a9",
