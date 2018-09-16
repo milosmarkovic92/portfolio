@@ -1,22 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Color from 'color';
-import Html5Icon from '../../Icons/html5';
-import ReactIcon from '../../Icons/react';
-import Css3Icon from '../../Icons/css3';
-import ReduxIcon from '../../Icons/redux';
-import JavaScriptIcon from '../../Icons/javaScript';
-import jQueryIcon from '../../Icons/jQuery';
-import './SkillList.css';
-
-const Icons = {
-    Html5: Html5Icon,
-    ReactJS: ReactIcon,
-    Css3: Css3Icon,
-    Redux: ReduxIcon,
-    JavaScript: JavaScriptIcon,
-    jQuery: jQueryIcon
-}
+import * as Icons from '../../Icons';
 
 const Skill = (props) => {
     const IconComponent = Icons[props.name];

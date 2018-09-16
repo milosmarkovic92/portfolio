@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import ProjectList from '../Experience/ProjectItem/ProjectList';
 import SkillList from '../Experience/SkillItem/SkillList';
-import Skill from '../Experience/SkillItem/Skill';
 import PROJECTS from '../../constants/projects.json';
 import SKILLS from '../../constants/skills.json';
-import close from '../../assets/close.png'
+import * as Icons from '../Icons';
+import CancelIcon from '../Icons/cancel';
 import './ExperienceSegment.css';
 
 class ExperienceSegment extends Component {
@@ -25,7 +25,8 @@ class ExperienceSegment extends Component {
     }
 
     render() {
-        const { selectedSkill, projects, selectedImage } = this.state;
+        const { selectedSkill, projects } = this.state;
+        const SelectedSkillIcon = Icons[selectedSkill]
         return selectedSkill
             ? <div className='segment-wrapper segment-wrapper-projects'>
                 <div className="segment-arch" />
@@ -33,15 +34,10 @@ class ExperienceSegment extends Component {
                     <div className='project-slide'>
                         <div>
                             <span className="span-container">
-                                <img src={close}
-                                    alt=''
+                                <CancelIcon
                                     className="circle"
                                     onClick={() => this.skillChangeHandler('')} />
-                                <Skill image={selectedImage}/>
-                                {/*<img src={selectedImage}
-                                    className="img"
-                                    alt=''
-                                    />*/}
+                                <SelectedSkillIcon className="icon-container"/>
                             </span>
                         </div>
                         <ProjectList

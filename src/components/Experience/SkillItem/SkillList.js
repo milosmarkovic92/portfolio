@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Skill, { SkillPropTypes } from './Skill';
+import './SkillList.css';
 
 const SkillList = (props) => props.skills.map(skillProps =>
     <Skill

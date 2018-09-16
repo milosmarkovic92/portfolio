@@ -1,8 +1,8 @@
 import React from 'react';
-import linkedin from '../../assets/linkedin.png';
-import github from '../../assets/github.png';
-import gmail from '../../assets/gmail.png';
-import telephone from '../../assets/telephone.png';
+import LinkedinIcon from '../Icons/linkedin';
+import GithubIcon from '../Icons/github';
+import GmailIcon from '../Icons/gmail';
+import PhoneIcon from '../Icons/phone';
 import './Contact.css';
 
 const Contact = () => {
@@ -16,23 +16,15 @@ const Contact = () => {
                         <a href="https://www.linkedin.com/in/milosmarkovic92/"
                             target="_blank"
                             rel="noopener noreferrer">
-                            <img src={linkedin}
-                                alt=""
-                                className="contact" /></a>
+                            <LinkedinIcon className="contact" /></a>
                         <a href="https://github.com/milosmarkovic92"
                             target="_blank"
                             rel="noopener noreferrer">
-                            <img src={github}
-                                alt=""
-                                className="contact" /></a>
+                            <GithubIcon className="contact" /></a>
                         <a href="mailto:milosmarkovic7692@gmail.com">
-                            <img src={gmail}
-                                alt=""
-                                className="contact" /></a>
+                            <GmailIcon className="contact" /></a>
                         <a href="tel:+381652652016">
-                            <img src={telephone}
-                                alt=""
-                                className="contact" /></a>
+                            <PhoneIcon className="contact" /></a>
                     </div>
                 </div>
             </div>

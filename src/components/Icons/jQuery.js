@@ -13,9 +13,9 @@ const jQuery = (props) => (
         <g
             id="g28"
             fill="none"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             stroke="none"
-            stroke-width="1"
+            strokeWidth="1"
             transform="translate(-0.98069548,-9.4170726)">
             <g
                 id="g26">

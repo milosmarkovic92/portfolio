@@ -32,7 +32,7 @@
     overflow: hidden;
     align-content: center;
 }
-a > img {
+a > * {
     height: 35px;
     width: 35px;
     float: left;

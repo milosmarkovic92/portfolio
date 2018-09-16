@@ -28,14 +28,14 @@
         "progress": 90
     },
     {
-        "name": "Html5",
+        "name": "HTML5",
         "caption": "HTML",
         "captionTwo": "5",
         "color": "#ada9a9",
         "progress": 90
     },
     {
-        "name": "Css3",
+        "name": "CSS3",
         "caption": "CSS",
         "captionTwo": "3",
         "color": "#ada9a9",
