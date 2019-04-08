@@ -13,6 +13,7 @@
 
 .skill {
   transition: all 200ms ease-in;
+  padding-bottom: 20px;
 }
 
 .skill:hover {

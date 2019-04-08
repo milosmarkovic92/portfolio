@@ -26,7 +26,7 @@ class ExperienceSegment extends Component {
 
     render() {
         const { selectedSkill, projects } = this.state;
-        const SelectedSkillIcon = Icons[selectedSkill]
+        const SelectedSkillIcon = Icons[selectedSkill];
         return selectedSkill
             ? <div className='segment-wrapper segment-wrapper-projects'>
                 <div className="segment-arch" />
