@@ -10,14 +10,15 @@ const AboutMe = () => {
                 <div className="name">Miloš<strong>Marković</strong></div>
                 <div className="profession"><strong>Frontend</strong>Developer</div>
                 <p className="ptag">Young and enthusiastic developer with strong communication
-                    skills, ready to learn new technologies. I
-                    am detail orientied and open minded. I am "outside the
-                    box" thinker and tend to observe things from a different
+                    skills. I
+                    am very professional, precise and detail oriented. My virtues are persistence, reliability, accuracy and responsibility. Two things that also stand
+                    next to my name are - "outside the box thinker" and "open minded". Due to constant technology grow, I am ready to learn new things and to improve my current
+                    knowledge. Also, I tend to observe things from a different
                     perspective.
             </p>
                 <p className="ptag">
-                    In my free time I like to play basketball, watch movies,
-                    play guitar or hike as a member of mounteering club.
+                    In my free time I like to play basketball, which is my passion, read books, watch movies and 
+                    play guitar. Also I seek for adventure exploring beautiful landscapes of Serbia as a member of hiking club.
             </p>
             </div>
         </div>

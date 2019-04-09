@@ -8,12 +8,12 @@
     display: inline-block;
     height: 45px;
     width: 45px;
-    cursor: pointer;
 }
 
 .skill {
   transition: all 200ms ease-in;
   padding-bottom: 20px;
+  cursor: pointer;
 }
 
 .skill:hover {

@@ -2,12 +2,12 @@
     {
         "name": "Memory game with cards",
         "description": "The main board contains simply a bunch of cards. Each of them contains some image, but all of them are hidden actually. Each of card has one matching card equivalent on the board, with the same image. You need to find all the matching cards. When you discover 2 cards and they do not match, they are hiding again and the best thing to do is just try to remember what cards you discovered and where. It will help you with finding matching pairs.",
-        "skills": ["ReactJS", "Redux", "JavaScript", "CSS3", "HTML5"]
+        "skills": ["ReactJS", "Redux", "JavaScript", "CSS3", "HTML5", "Git"]
     },
     {
         "name": "Game of Thrones Countdown",
         "description": "Since I am a big fan of Game of Thrones and I can't wait for new season I made myself a simple application so I can check how many days, hours, minutes and seconds are left until new season. Winter is Coming!",
-        "skills": ["ReactJS", "JavaScript", "CSS3", "HTML5"]
+        "skills": ["ReactJS", "JavaScript"]
     },
     {
         "name": "My portfolio",
@@ -23,5 +23,25 @@
         "name": "Food ordering web app",
         "description": "A web application for ordering food online. React made web more simple and I made life simpler with this application, using Lyfecycle methods.",
         "skills": ["ReactJS", "JavaScript", "CSS3"]
+    },
+    {
+        "name": "Vehicle market",
+        "description": "A web application for buying and selling all types of vehicles online. On this project I have worked in team and our job was to develop backend of this application, using Laravel for creating REST APIs and MySQL for database.",
+        "skills": ["PHP", "Laravel", "MySQL", "Git"]
+    },
+    {
+        "name": "Hiking Owl",
+        "description": "I built this website in WordPress and it is about my hiking adventures with my soulmate all around Serbia, with picture gallery, future plans and description of every place we have visited.",
+        "skills": ["WordPress"]
+    },
+    {
+        "name": "Banner",
+        "description": "I created banner for mobile provider advertisement, where I have discovered fancy way of creating animations.",
+        "skills": ["jQuery"]
+    },
+    {
+        "name": "PSD to HTML",
+        "description": "I worked on several projects where my task was to give birth to websites designed in Photoshop. Everything is neat and tidy and \"pixel perfect\".",
+        "skills": ["Photoshop", "HTML5", "CSS3"]
     }
 ]

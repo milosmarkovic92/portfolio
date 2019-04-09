@@ -11,7 +11,7 @@
         "caption": "Redux",
         "captionTwo": "",
         "color": "#ada9a9",
-        "progress": 65
+        "progress": 60
     },
     {
         "name": "jQuery",
@@ -46,7 +46,7 @@
         "caption": "PHP",
         "captionTwo": "",
         "color": "#ada9a9",
-        "progress": 60
+        "progress": 50
     },
     {
         "name": "MySQL",
@@ -60,14 +60,14 @@
         "caption": "Laravel",
         "captionTwo": "",
         "color": "#ada9a9",
-        "progress": 60
+        "progress": 50
     },
     {
         "name": "WordPress",
         "caption": "Word",
         "captionTwo": "Press",
         "color": "#ada9a9",
-        "progress": 80
+        "progress": 70
     },
     {
         "name": "Git",
