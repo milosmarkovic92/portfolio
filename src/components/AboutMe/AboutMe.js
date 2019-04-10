@@ -12,7 +12,7 @@ const AboutMe = () => {
                 <p className="ptag">Young and enthusiastic developer with strong communication
                     skills. I
                     am very professional, precise and detail oriented. My virtues are persistence, reliability, accuracy and responsibility. Two things that also stand
-                    next to my name are - "outside the box thinker" and "open minded". Due to constant technology grow, I am ready to learn new things and to improve my current
+                    next to my name are - "outside the box thinker" and "open minded". Due to constant technology growth, I am ready to learn new things and to improve my current
                     knowledge. Also, I tend to observe things from a different
                     perspective.
             </p>

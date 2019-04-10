@@ -54,7 +54,7 @@ class App extends Component {
       },
       {
         id: '4',
-        message: 'If you want to hire me, feel free to contact me :]',
+        message: 'If you want to hire me, feel free to contact me :)',
         end: true,
       }
     ];
