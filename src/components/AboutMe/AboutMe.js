@@ -8,7 +8,7 @@ const AboutMe = () => {
             <div className="about-slide">
                 <img className="profile-picture" src={milos} alt="Milos Markovic" />
                 <div className="name">Miloš<strong>Marković</strong></div>
-                <div className="profession"><strong>FrontEnd</strong>Developer</div>
+                <div className="profession"><strong>Frontend</strong>Developer</div>
                 <p className="ptag">Young and enthusiastic developer with strong communication
                     skills. I
                     am very professional, precise and detail oriented. My virtues are persistence, reliability, accuracy and responsibility. Two things that also stand
