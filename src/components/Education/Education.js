@@ -10,11 +10,11 @@ const Education = () => {
                 <div className="education-slide">
                     <h1 className="center-align-edu">EDUCATION AND WORK EXPERIENCE</h1>
                     <div className="left-align grid-container-edu">
-                        <p className="edu-item1">2019 -  </p>
+                        <p className="edu-item1">2018 -  </p>
                         <p className="edu-item2"
                             style={{ color: Color('#ada9a9').darken(0.2) }}>
-                            3 months of internship in Software-Nation.
-                        Role: <span style={{ color: Color('white').darken(0.2) }}>PHP developer</span>
+                            Junior FrontEnd Developer at <i>Software-Nation. </i>
+                        Role: <span style={{ color: Color('white').darken(0.2) }}>ReactJS developer</span>
                         </p>
                         <p className="edu-item3">2012 - 2018 </p>
                         <p className="edu-item4"
