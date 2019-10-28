@@ -28,7 +28,7 @@ const AboutMe = () => {
           exploring beautiful landscapes of Serbia as a member of hiking club.
         </p>
         <p className="ptag download">
-          <a href="../../../public/MilosMarkovicCV.pdf" download>
+          <a href="/files/MilosMarkovicCV.pdf" download>
             You can download my CV here
           </a>
         </p>
