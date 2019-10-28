@@ -1,15 +1,15 @@
-import HTML5 from './html5';
-import ReactJS from './react';
-import CSS3 from './css3';
-import Redux from './redux';
-import JavaScript from './javaScript';
-import jQuery from './jQuery';
-import PHP from './php';
-import MySQL from './mysql';
-import Laravel from './laravel';
-import Git from './git';
-import Photoshop from './photoshop';
-import WordPress from './wordpress';
+import HTML5 from "./html5";
+import ReactJS from "./react";
+import CSS3 from "./css3";
+import Redux from "./redux";
+import JavaScript from "./javaScript";
+import jQuery from "./jQuery";
+import PHP from "./php";
+import MySQL from "./mysql";
+import MongoDB from "./mongodb";
+import Git from "./git";
+import Photoshop from "./photoshop";
+import NodeJS from "./nodejs";
 
 export {
   HTML5,
@@ -20,8 +20,8 @@ export {
   jQuery,
   PHP,
   MySQL,
-  Laravel,
+  MongoDB,
   Git,
   Photoshop,
-  WordPress
-}
+  NodeJS
+};

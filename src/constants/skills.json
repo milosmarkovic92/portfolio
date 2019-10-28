@@ -1,86 +1,87 @@
 [
-    {
-        "name": "ReactJS",
-        "caption": "React",
-        "captionTwo": "JS",
-        "color": "#ada9a9",
-        "progress": 70
-    },
-    {
-        "name": "Redux",
-        "caption": "Redux",
-        "captionTwo": "",
-        "color": "#ada9a9",
-        "progress": 60
-    },
-    {
-        "name": "jQuery",
-        "caption": "jQuery",
-        "captionTwo": "",
-        "color": "#ada9a9",
-        "progress": 75
-    },
-    {
-        "name": "JavaScript",
-        "caption": "Java",
-        "captionTwo": "Script",
-        "color": "#ada9a9",
-        "progress": 80
-    },
-    {
-        "name": "HTML5",
-        "caption": "HTML",
-        "captionTwo": "5",
-        "color": "#ada9a9",
-        "progress": 90
-    },
-    {
-        "name": "CSS3",
-        "caption": "CSS",
-        "captionTwo": "3",
-        "color": "#ada9a9",
-        "progress": 85
-    },
-    {
-        "name": "PHP",
-        "caption": "PHP",
-        "captionTwo": "",
-        "color": "#ada9a9",
-        "progress": 50
-    },
-    {
-        "name": "MySQL",
-        "caption": "My",
-        "captionTwo": "SQL",
-        "color": "#ada9a9",
-        "progress": 60
-    },
-    {
-        "name": "Laravel",
-        "caption": "Laravel",
-        "captionTwo": "",
-        "color": "#ada9a9",
-        "progress": 50
-    },
-    {
-        "name": "WordPress",
-        "caption": "Word",
-        "captionTwo": "Press",
-        "color": "#ada9a9",
-        "progress": 70
-    },
-    {
-        "name": "Git",
-        "caption": "Git",
-        "captionTwo": "",
-        "color": "#ada9a9",
-        "progress": 75
-    },
-    {
-        "name": "Photoshop",
-        "caption": "Photoshop",
-        "captionTwo": "",
-        "color": "#ada9a9",
-        "progress": 75
-    }
+  {
+    "name": "ReactJS",
+    "caption": "React",
+    "captionTwo": "JS",
+    "color": "#ada9a9",
+    "progress": 80
+  },
+  {
+    "name": "Redux",
+    "caption": "Redux",
+    "captionTwo": "",
+    "color": "#ada9a9",
+    "progress": 70
+  },
+  {
+    "name": "jQuery",
+    "caption": "jQuery",
+    "captionTwo": "",
+    "color": "#ada9a9",
+    "progress": 75
+  },
+  {
+    "name": "JavaScript",
+    "caption": "Java",
+    "captionTwo": "Script",
+    "color": "#ada9a9",
+    "progress": 80
+  },
+  {
+    "name": "HTML5",
+    "caption": "HTML",
+    "captionTwo": "5",
+    "color": "#ada9a9",
+    "progress": 90
+  },
+  {
+    "name": "CSS3",
+    "caption": "CSS",
+    "captionTwo": "3",
+    "color": "#ada9a9",
+    "progress": 85
+  },
+  {
+    "name": "NodeJS",
+    "caption": "Node",
+    "captionTwo": "JS",
+    "color": "#ada9a9",
+    "progress": 65
+  },
+  {
+    "name": "MongoDB",
+    "caption": "Mongo",
+    "captionTwo": "DB",
+    "color": "#ada9a9",
+    "progress": 65
+  },
+  {
+    "name": "PHP",
+    "caption": "PHP",
+    "captionTwo": "",
+    "color": "#ada9a9",
+    "progress": 50
+  },
+  {
+    "name": "MySQL",
+    "caption": "My",
+    "captionTwo": "SQL",
+    "color": "#ada9a9",
+    "progress": 60
+  },
+
+  {
+    "name": "Git",
+    "caption": "Git",
+    "captionTwo": "",
+    "color": "#ada9a9",
+    "progress": 75
+  },
+  {
+    "name": "Photoshop",
+    "caption": "Photoshop",
+    "captionTwo": "",
+    "color": "#ada9a9",
+    "progress": 75
+  }
 ]
