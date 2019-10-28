@@ -46,7 +46,7 @@
   },
   {
     "name": "South Park MERN stack",
-    "description": "In this application, I used to make my first RESTful API. It is about the citizens of South Park and their profiles, occupation, quotes, relatives, etc. The user is able to add a new character, delete old ones and update the existed. The frontend of this application is ReactJS and the backend is NodeJS, Express, and MongoDB.",
+    "description": "In this application, I've made my first RESTful API. It is about the citizens of South Park and their profiles, occupation, quotes, relatives, etc. The user is able to add a new character, delete old ones and update the existed. The frontend of this application is ReactJS and the backend is NodeJS, Express, and MongoDB.",
     "skills": ["MongoDB", "Express", "ReactJS", "NodeJS"]
   }
 ]
