@@ -18,9 +18,9 @@ const AboutMe = () => {
           am very professional, precise and detail oriented. My virtues are
           persistence, reliability, accuracy and responsibility. Two things that
           also stand next to my name are - "outside the box thinker" and "open
-          minded". Due to constant technology growth, I am ready to learn new
-          things and to improve my current knowledge. Also, I tend to observe
-          things from a different perspective.
+          minded". ”. In my spare time I work on my own projects. That helps me
+          to learn a lots of new stuff and grow as a developer. I love traveling
+          and discovering new places.
         </p>
         <p className="ptag">
           In my free time I like to play basketball, which is my passion, read
