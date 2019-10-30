@@ -18,14 +18,14 @@ const AboutMe = () => {
           am very professional, precise and detail oriented. My virtues are
           persistence, reliability, accuracy and responsibility. Two things that
           also stand next to my name are - "outside the box thinker" and "open
-          minded". ”. In my spare time I work on my own projects. That helps me
-          to learn a lots of new stuff and grow as a developer. I love traveling
-          and discovering new places.
+          minded". In my spare time I work on my own projects. That helps me to
+          learn a lots of new stuff and grow as a developer. Also, I tend to
+          observe things from a different perspective.
         </p>
         <p className="ptag">
-          In my free time I like to play basketball, which is my passion, read
-          books, watch movies and play guitar. Also I seek for adventure
-          exploring beautiful landscapes of Serbia as a member of hiking club.
+          I like to play basketball, which is my passion, read books, watch
+          movies and play guitar. Also I seek for adventure exploring beautiful
+          landscapes of Serbia as a member of hiking club.
         </p>
         <p className="ptag download">
           <a href="/files/MilosMarkovicCV.pdf" download>
